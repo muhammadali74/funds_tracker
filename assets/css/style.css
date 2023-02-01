@@ -1126,7 +1126,7 @@ a {
   width: 160px;
   margin: 6px 6px 20px;
   display: inline-block;
-  position: relative;
+  position: center;
   left: 400px;
   text-align: center;
   line-height: 1.2;
