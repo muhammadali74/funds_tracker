@@ -4,6 +4,9 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+
+
 (function() {
   "use strict";
 
@@ -257,5 +260,12 @@
    * Initiate Pure Counter 
    */
   new PureCounter();
+
+
+function Scrolldown() {
+    window.scroll(0,400); 
+}
+
+window.onload = Scrolldown;
 
 })()
