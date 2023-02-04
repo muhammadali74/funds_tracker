@@ -25,7 +25,7 @@
   $('.second.circle').circleProgress({
     value: 0.13
   }).on('circle-animation-progress', function(event, progress) {
-    $(this).find('strong').html(Math.round(2300 * progress) + '<i>$ <br> raised </i>');
+    $(this).find('strong').html(Math.round(2340 * progress) + '<i>$ <br> raised </i>');
   })}});
 
 
