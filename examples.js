@@ -23,9 +23,9 @@
     if (loaded == 0  && $(window).scrollTop() > 400) {
       loaded = 1;
   $('.second.circle').circleProgress({
-    value: 0.7478
+    value: 0.804
   }).on('circle-animation-progress', function(event, progress) {
-    $(this).find('strong').html(Math.round(13160 * progress) + '<i>$ <br> raised </i>');
+    $(this).find('strong').html(Math.round(14160 * progress) + '<i>$ <br> raised </i>');
   })}});
 
 
